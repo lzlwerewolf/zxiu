@@ -1,0 +1,188 @@
+body{
+    padding-top: 8vh;
+}
+header .back{
+    position: absolute;
+    left: 4vw;
+    top: 3vw;
+    width: 7vw;
+}
+header .pay{
+    position: absolute;
+    display: block;
+    width: 15vw;
+    height: 4vh;
+    color: #fff;
+    top: 25%;
+    right: 30px;
+    font-size: 3vw;
+    line-height: 4vh;
+    border-radius: 20px;
+}
+#wrapper{
+    height: 82vh;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    padding: 2vh 0 0 3vw;
+    overflow: hidden;
+}
+.infoBand{
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infoBand span{
+    float: left;
+    color: #fff;
+    font-size: 4vw;
+}
+.infoBand .num{
+
+}
+.infoBand .price{
+    color: #e4366b;
+    font-weight: bold;
+}
+.empty{
+    height: auto;
+    width: 100vw;
+    background: url("../images/empty.jpg") no-repeat center;
+    background-size: 50%;
+    padding: 0;
+}
+.empty p{
+    height: 18vh;
+    line-height: 12vh;
+    text-align: center;
+    font-size: 3vh;
+}
+.empty a{
+    display: block;
+    width: 50vw;
+    height: 7vh;
+    margin-left: 25vw;
+    color: #fff;
+    background-color: #e4366b;
+    text-align: center;
+    line-height: 7vh;
+    font-size: 3.6vh;
+    margin-top: 20vh;
+    border-radius: 5px;
+}
+.list{
+    width: 100vw;
+    height: auto;
+}
+.list .item{
+    width: 100vw;
+    height: 23vh;
+    border-bottom: 1px solid #333;
+    padding: 3vh 0 0.5vh 7vw;
+}
+.item img{
+    width: 30vw;
+}
+.item .left{
+    float: left;
+}
+.item .right{
+    float: left;
+    width:63vw;
+    height: 30vw;
+    font-size: 4vw;
+    position: relative;
+}
+.right .cancel{
+    position: absolute;
+    bottom: 2vw;
+    right: 8vw;
+    display: block;
+    width: 24vw;
+    height: 8vw;
+    background-color: #e4366b;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 4vw;
+    line-height: 8vw;
+    text-align: center;
+}
+.right .delete{
+    position: absolute;
+    color: #333;
+    top: 0;
+    right: 4vw;
+    font-size: 8vw;
+}
+.right a{
+    color: #333;
+    margin-left: 2vw;
+    width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 4.2vw;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    display: -webkit-box;
+}
+.right a:active,.right a:hover{
+    text-decoration: none;
+}
+.right .info{
+    overflow: hidden;
+    height:auto;
+    margin: 10px 0 ;
+    margin-left: 2vw;
+}
+.info *{
+    float: left;
+}
+.info .price,.info .size{
+    height: auto;
+    width: 13vw;
+    text-align: center;
+}
+.price{
+    color: #e4366b;
+}
+.size{
+    color: #333;
+    font-weight: bold;
+}
+.right .numberBand{
+    margin: 10px 0;
+    overflow: hidden;
+    height: auto;
+    margin-left: 2vw;
+}
+.numberBand *{
+    float: left;
+}
+.numberBand .sub,.numberBand .add{
+    width: 6vw;
+    height: 5vw;
+    border: 1px solid #ccc;
+    background-color: #333;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0.8vw;
+    font-weight: bold;
+    line-height: 5vw;
+}
+.numberBand input.number{
+    width: 15vw;
+    margin: 0 1vw;
+    border: 0;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    box-shadow: 0.1vw 0.1vw 1.5vw #000;
+}

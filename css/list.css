@@ -1,0 +1,141 @@
+body{
+    padding-top: 13.5vw;
+    height: auto;
+}
+header{
+    width: 100vw;
+    height: 13.5vw;
+    border-bottom: 1px solid #333;
+}
+header img{
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header .back{
+    position: absolute;
+    left: 4vw;
+    top: 3vw;
+    width: 7vw;
+}
+.search{
+    width: 100vw;
+    height: 13.5vw;
+    position: relative;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .iconfont{
+    position: absolute;
+    top: 1.2vw;
+    left: 7.5vw;
+    font-size: 7.5vw;
+}
+#searchInput{
+    outline: none;
+    width: 90%;
+    height: 70%;
+    border-radius: 25px 25px 25px 25px;
+    font-size:3.5vw;
+    color: #333;
+    text-indent: 10vw;
+}
+
+.list1{
+    width: 100vw;
+    height: auto;
+}
+.test{
+    width: 100%;
+    height:35vw;
+    border-bottom: 1px solid #333;
+}
+.test .left{
+    float: left;
+    padding: 20px 0 0 15px;
+    width: 30vw;
+    overflow: hidden;
+}
+.test .left img{
+    width: 81px;
+    height: 81px;
+}
+.test .right{
+    float: left;
+    width: 70vw;
+    padding: 20px 4vw 0 1vw;
+    position: relative;
+}
+.test .right a{
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height:8vw;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    font-size: 4vw;
+    color: #333;
+}
+.right a:hover{
+    text-decoration: none;
+}
+.test .priceBand{
+    display: block;
+    height: 8vw;
+}
+.priceBand .price{
+    font-size: 4vw;
+    line-height: 8vw;
+    color: #f42a74;
+}
+.priceBand del{
+    padding: 0 1vw;
+    font-size: 2.6vw;
+    line-height: 4vw;
+    color: #ccc;
+}
+.discount{
+    display: block;
+    font-size: 2.6vw;
+    line-height: 4vw;
+    color: #333;
+}
+.cart{
+    display: block;
+    width: 20vw;
+    height: 8vw;
+    background-color: #f42a74;
+    border-radius: 8px;
+    position: absolute;
+    right: 4vw;
+    bottom: 1vw;
+    color: #fff;
+    text-align: center;
+    font-size: 5vw!important;
+}
+.item{
+    width: 100vw;
+    height: 12vw!important;
+    font-size: 4vw;
+    line-height: 12vw;
+    text-indent:3vw;
+    border-bottom: 1px solid #333;
+    background: url("../images/next.jpg") 95% center no-repeat;
+    background-size: 3vw;
+}
+.item:first-child{
+    text-indent: 0;
+    background: url("../images/down.jpg") 95% center no-repeat;
+    background-size: 5vw;
+}
+.swiper-slide:first-child{
+    text-indent: 6px;
+    background: url("../images/down.jpg") 95% center no-repeat ;
+}
+.item:before{
+    content:"\e670"
+}

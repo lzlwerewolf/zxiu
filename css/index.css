@@ -1,0 +1,160 @@
+.list::-webkit-scrollbar,html::-webkit-scrollbar,body::-webkit-scrollbar{
+    width:0;
+    height: 0;
+    background-color: #e4366b;
+}
+.splash{
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+}
+.splash img{
+    width: 100vw;
+    height: 100vh;
+}
+.goin{
+    position: absolute;
+    display: block;
+    width: 46vw;
+    height: 11vh;
+    bottom: 16vh;
+    border-radius: 10px;
+    left:27vw;
+    background-color: #c7254e;
+    color: #fff;
+    font-size: 2.8vh;
+    line-height: 11vh;
+    text-align: center;
+}
+header.index{
+    width: 100vw;
+    height: 8vh;
+    display: none;
+}
+header.index img{
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    display: block;
+}
+.search{
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search>.iconfont{
+    position: absolute;
+    top: 1.2vw;
+    left: 7.5vw;
+    font-size: 7.5vw;
+}
+#searchInput{
+    width: 90%;
+    height: 70%;
+    border-radius: 25px 25px 25px 25px;
+    font-size:3.5vw;
+    color: #333;
+    text-indent: 10vw;
+    outline: none;
+}
+.search .searchList{
+    width: 100%;
+    height: 74vh;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    bottom: -74vh;
+    z-index: 50;
+    left: 0;
+}
+.swiper-pagination-bullet-active{
+    background: #f00!important;
+}
+#wrapper{
+    overflow: hidden;
+    height: 74vh;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul .test{
+    width: 100%;
+    height:35vw;
+    border-bottom: 1px solid #333;
+}
+.test .left{
+    float: left;
+    padding: 20px 0 0 15px;
+    width: 30vw;
+    overflow: hidden;
+}
+.test .left img{
+    width: 81px;
+    height: 81px;
+}
+.test .right{
+    float: left;
+    width: 70vw;
+    padding: 20px 4vw 0 1vw;
+    position: relative;
+}
+.test .right a{
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height:8vw;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    font-size: 4vw;
+    color: #333;
+}
+.right a:hover{
+    text-decoration: none;
+}
+.test .priceBand{
+    display: block;
+    height: 8vw;
+}
+.priceBand .price{
+    font-size: 4vw;
+    line-height: 8vw;
+    color: #f42a74;
+}
+.priceBand del{
+    padding: 0 1vw;
+    font-size: 2.6vw;
+    line-height: 4vw;
+    color: #ccc;
+}
+.discount{
+    display: block;
+    font-size: 2.6vw;
+    line-height: 4vw;
+    color: #333;
+}
+.cart{
+    display: block;
+    width: 20vw;
+    height: 8vw;
+    background-color: #f42a74;
+    border-radius: 8px;
+    position: absolute;
+    right: 4vw;
+    bottom: 1vw;
+    color: #fff;
+    text-align: center;
+    font-size: 5vw!important;
+}
+.band{
+    display: none;
+}

@@ -1,0 +1,71 @@
+body{
+    padding-top: 13.5vw;
+}
+.myInfo{
+    width: 90vw;
+    height: 27vw;
+    margin:10vw 5vw 10vw 5vw
+}
+.myInfo .left{
+    width: 27vw;
+    height: 27vw;
+    background-color: #333;
+    float: left;
+    border-radius: 20px;
+    color: #ccc;
+    font-size: 22vw;
+    line-height: 29vw;
+    text-align: center;
+}
+.myInfo .right{
+    width: 63vw;
+    height: 27vw;
+    float: left;
+}
+.myInfo .right p{
+    line-height: 10vw;
+    height: 10vw;
+    color: #666;
+    font-size: 4vw;
+    text-indent: 8vw;
+}
+.myInfo .right div a{
+    display: block;
+    float: left;
+    width: 16vw;
+    height: 8vw;
+    margin-left: 8vw;
+    text-align: center;
+    line-height: 8vw;
+    color: #fff;
+    background-color: #c7254e;
+    border-radius: 30px;
+    font-size: 3vw;
+}
+.items{
+    width: 90vw;
+    height: 50vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    border-radius: 15px;
+}
+.items .item{
+    width: 100%;
+    height:25%;
+    border-bottom: 1px solid #666;
+    box-sizing: border-box;
+    background: url("../images/next.jpg") no-repeat 90% center;
+    background-size: 3vw;
+}
+.items .item:nth-child(4){
+    border: 0;
+}
+.items .item a{
+    display: block;
+    height: 100%;
+    line-height: 12.5vw;
+    text-indent: 4vw;
+    font-size: 5vw;
+    color: #333;
+}

@@ -1,0 +1,156 @@
+
+body{
+    padding: 0;
+}
+.my{
+    position: relative;
+}
+.my .favorite{
+    position: absolute;
+    display: block;
+    width: 16.67vw;
+    height: 4vh;
+    margin-top:-2vh;
+    color: #fff;
+    top: 50%;
+    right: 20px;
+    font-size: 3vw;
+    line-height:4vh;
+    border-radius: 7px;
+    background: -webkit-linear-gradient(top,#f55a84,#da1855);
+}
+.swiper-container{
+    height: 92vh;
+}
+.swiper-wrapper{
+    background-color: #f7f7f7;
+    height: 82vh;
+}
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .time{
+    height: 7vh;
+    line-height: 7vh;
+    background-color: #666;
+    color: #fff;
+    font-size: 3vh;
+    text-indent: 10vw;
+    margin-bottom: 5vh;
+}
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .info{
+    height: 70vh;
+}
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .info img{
+    margin: 0 auto;
+    display: block;
+    height:40vh
+}
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .info .name{
+    width: 80vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    height: 8vh;
+    background: url("../images/tip.jpg") no-repeat;
+    background-size: 100%;
+    text-indent: 20%;
+    line-height: 7vh;
+    color: #fff;
+    font-size: 3vh;
+    overflow: hidden;
+}
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .info .itemInfo{
+    width: 80vw;
+    margin-left:10vw;
+}
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .info .itemInfo *{
+   float: left;
+}
+del{
+    margin-right: 10vw;
+}
+.discount{
+    margin-right: 15vw;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) .info img{
+    margin: 0 auto;
+    display: block;
+}
+.swiper-pagination{
+    position: static;
+    background-color: #333;
+    height: 10vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.swiper-pagination .swiper-pagination-bullet{
+    float: left;
+    width: 33vw;
+    height: 10vh;
+    font-size: 3vh;
+    line-height: 10vh;
+    color: #fff;
+    background: -webkit-linear-gradient(top,#626167,#494951);
+    border-radius: 0;
+    box-sizing: border-box;
+    margin: 0!important;
+    opacity: .9!important;
+}
+.swiper-pagination .swiper-pagination-bullet:first-child:before{
+    content:"介绍"
+}
+.swiper-pagination .swiper-pagination-bullet:nth-child(2):before{
+    content:"详情"
+}
+.swiper-pagination .swiper-pagination-bullet:last-child:before{
+    content:"实拍"
+}
+.swiper-pagination-bullet-active{
+    border-top: 1vh solid #e4366b;
+    line-height: 8vh!important;
+}
+#detailScroll{
+    height: 82vh;
+}
+#detailScroll ul{
+    padding:0;
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    list-style: none;
+    overflow: hidden;
+}
+#detailScroll ul li{
+    height: auto;
+    margin-top: 3vh;
+    overflow: hidden;
+}
+#detailScroll ul li:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+#detailScroll ul li img{
+    width: 80vw;
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+}
+#detailScroll ul li p{
+    width: 80vw;
+    margin-left: 10vw;
+}
+.swiper-container1{
+    height: 82vh;
+}
+.swiper-container1 img{
+    width: 100%
+}
+.swiper-pagination1{
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+.swiper-container1 .swiper-pagination-bullet{
+    border: 0!important;
+
+}
